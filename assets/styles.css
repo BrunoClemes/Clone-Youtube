@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  display: flex;
+  width: 1440px;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: white;
+}
+
+.menu{
+  display: flex;
+  width: 1392px;
+  height: 56px;
+  padding: 0px 24px;
+  justify-content:space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: white;
+}
+
+.menu-left{
+  width: 146px;
+  height: 24px;
+  flex-shrink: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.icone-menu{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.logo{
+  width: 90px;
+  height: 20px;
+  flex-shrink: 0; 
+  margin-left: 32px;
+  margin-top: 2px;
+}
+
+.menu-center{
+  width: 404px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content:space-between;
+}
+
+.barra-pesquisa{
+  width: 348px;
+  height: 40px;
+  flex-shrink: 0;  
+  border: 1px solid #CCC;
+  background: #FFF;
+}
+
+.icone-pesquisa{
+  width: 57px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px solid #CCC;
+  background: #F8F8F8;
+  align-items: center;
+  display: flex;
+ }
+
+.icone-pesquisa img{
+  align-content: center;
+  margin-left: 14px;
+}
+
+
+.menu-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  color:#000000;
+  flex-direction: row;
+}
+
+.icone-video{
+  width: 24px;
+  height: 24px;
+
+}
+
+.icone-sino{
+  width: 24px;
+  height: 24px;
+
+}
+
+.icone-perfil img {
+  width: 34px;
+  height: 34px;
+  border-radius: 34px;
+  background:lightgray 50% / cover no-repeat;
+}
+
+main{
+  width: 1440px;
+  height: 1078px;
+  display: flex;
+  background: #f8f8f8;
+  flex-direction: row;
+}
+
+.watching-video{
+  line-height: normal;
+  margin-left: 75px;
+  margin-top: 28px;
+}
+
+.video img{
+  width: 952px;
+  height: 537px;
+
+}
+
+.title-video h1{
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.videos-actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  width: 902px;
+  height: 42px;
+}
+
+.channel-infos{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+
+
+
+}
+
+.channel-avatar{
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+
+
+}
+
+.name-followers{
+  width: 106px;
+  height: 32px;
+  position: relative;
+  justify-content: center;
+
+
+
+
+}
+
+.chanel p{
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+
+.followers p{
+  color: #515151;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.subscribe-button{
+  width: 159px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #C00;
+
+}
+
+.subscribe-button p{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.like{
+  justify-content: center;
+  display:flex;
+  flex-direction:inline;
+  align-items: center;
+
+
+}
+.thumbs-up img{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.numeros-likes p{
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+.deslike {
+  width: 100px;
+  height: 24px;
+  display:flex;
+  flex-direction:inline;
+  align-items: center
+}
+
+.thumbs-down img{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.numero-deslikes p{
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+.share{
+  width: 115px;
+  height: 24px;
+  display:flex;
+  flex-direction:inline;
+  align-items: center;
+
+}
+
+.share-2 img{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0; 
+  margin-right: 6px;
+}
+
+.compartilhar p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.download{
+  width: 95px;
+  height: 24px;
+  flex-direction:inline;
+  align-items: center;
+  display: flex;
+}
+
+.download-2 img{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.tex-download p{
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+.preview p{
+  width: 391px;
+  height: 16px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description p{
+  width: 510px;
+  height: 64px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 372px;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+}
+
+.video1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.video1 img{
+  width: 160px;
+  height: 90px;
+  margin-top: 28px;
+  margin-left: 25px;
+}
+
+.infos {
+width: 196px;
+height: 89px;
+}
+
+.infos h1{
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 196px;
+  margin-top: 26px;
+  margin-bottom: 8px;
+}
+
+.infos .channel{
+  color: #515151;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.infos .description{
+  display: flex;
+  flex-direction: column;
+  color: #515151;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top:-2px;
+}
+
+
+
+
+
